@@ -1,0 +1,125 @@
+*{
+  margin: 15px;
+  padding: 0;
+}
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+html{
+  background-color: #464547;
+  font-size: 120%;
+  font-family: 'Inconsolata',monospace;
+}
+
+body{
+  background-color: #464547;
+  font-family: 'Inconsolata',monospace;
+}
+
+h1{
+  margin: 30px;
+  font-family: 'Inconsolata',monospace;
+  color: #d2f095;
+  margin-left: 3px;
+}
+
+h3{
+  margin: 30px;
+  font-family: 'Inconsolata',monospace;
+  color: #ffffff;
+  margin-left: 3px;
+}
+
+p{
+  margin: 6px;
+  font-size: 120%;
+  font-family: 'Inconsolata',monospace;
+  color: #354a04;
+  align: left;
+}
+
+/*Het blok groep1 is een verborgen div - dwz zelfde achtergrond kleur als de html*/
+.groep1{
+  display: block;
+  width: 40%;
+  margin: 30px;
+  background-color: #464547;
+  border: 2px solid none;
+  border-color:#464547;
+  border-radius: 10px;
+  font-size: 120%;
+  font-family: 'Inconsolata',monospace;
+  color: white;
+}
+
+/*Het blok div lijnt uit aan de linkerkant.*/
+.groep2{
+  display: block;
+  width: 40%;
+  margin: 30px;
+  background-color: #abf15f;
+  border: 2px solid;
+  border-color: white;
+  border-radius: 10px;
+  float: left;
+  font-size: 120%;
+  font-family: 'Inconsolata',monospace;
+  color: white;
+}
+
+/*Het blok div1 lijnt uit aan de rechterkant.*/
+.groep3{
+  display: block;
+  width: 40%;
+  margin: 30px;
+  background-color: #abf15f;
+  border: 2px solid;
+  border-color: white;
+  border-radius: 10px;
+  float: right;
+  font-size: 120%;
+  font-family: 'Inconsolata',monospace;
+  color: white;
+}
+
+/*Het blok div2 lijnt uit in het midden van de pagina maar alleen met center-tag - in de html - voor het divblokje.*/
+.groep4{
+  display: block;
+  width: 40%;
+  margin: 30px;
+  background-color: #abf15f;
+  border: 2px solid;
+  border-color: white;
+  border-radius: 10px;
+  float: none;
+  font-size: 120%;
+  font-family: 'Inconsolata',monospace;
+  color: white;
+  text-align: left;
+}
+
+.footer{
+	font-family: Inconsolata,monospace;
+	font-size: 10px;
+  color: #ffffff;
+}
+.grid-container{
+width: auto;
+height: 800px;
+display: grid;
+grid-template-columns: auto auto auto;
+background-color: #abf15f;
+padding: 10px;
+border: 2px solid #000000;
+border-radius: 10px;
+}
+
+.grid-item{
+background-color: #ffffff;
+border: 2px solid #000000;
+border-radius: 10px;
+  padding: 15px;
+  font-size: 20px;
+	font-family: 'Inconsolata',monospace;
+  text-align: center;
+  color: black;
+}
